@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Gym-/static/css/main.5b2419b2.css",
+    "main.js": "/Gym-/static/js/main.0a49d9ad.js",
+    "static/js/453.caeaf51d.chunk.js": "/Gym-/static/js/453.caeaf51d.chunk.js",
+    "static/media/main.jpg": "/Gym-/static/media/main.04d2d422bc80955f3225.jpg",
+    "static/media/greentick.png": "/Gym-/static/media/greentick.6ff208b1d620ecddac36.png",
+    "static/media/girl.jpg": "/Gym-/static/media/girl.ce6460c17c5072eda947.jpg",
+    "static/media/wallpaper.jpg": "/Gym-/static/media/wallpaper.676722d9d8c8e02de7f1.jpg",
+    "static/media/nitesh.jpg": "/Gym-/static/media/nitesh.dd13d49602d97c256d2d.jpg",
+    "static/media/gym.png": "/Gym-/static/media/gym.95f54683d67a8e1b19dd.png",
+    "static/media/smoothies.png": "/Gym-/static/media/smoothies.b9efa8ce6908c7f50d7b.png",
+    "static/media/dumbbell.png": "/Gym-/static/media/dumbbell.f119477aac3156456572.png",
+    "index.html": "/Gym-/index.html",
+    "main.5b2419b2.css.map": "/Gym-/static/css/main.5b2419b2.css.map",
+    "main.0a49d9ad.js.map": "/Gym-/static/js/main.0a49d9ad.js.map",
+    "453.caeaf51d.chunk.js.map": "/Gym-/static/js/453.caeaf51d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b2419b2.css",
+    "static/js/main.0a49d9ad.js"
+  ]
+}
