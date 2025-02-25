@@ -1,0 +1,58 @@
+.btn {
+    width: 8.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: rgba(89, 103, 110, 0.653);
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 28px;
+    margin-left: 2px;
+}
+
+/* Adjust button size for smaller screens */
+@media (max-width: 768px) {
+    .btn {
+        width: 7.5em;
+        height: 3.5em;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        width: 9.3em;
+        height: 2.5em;
+        font-size: 12px;
+        margin-top:4px;
+        
+    }
+}
+
+.btn:hover {
+    color: rgb(26, 26, 26);
+}
+
+.btn::after {
+    content: "";
+    background: rgb(95, 92, 92);
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+.btn:hover::after {
+    transform: skewX(-45deg) scale(1, 1);
+    transition: all 0.5s;
+}

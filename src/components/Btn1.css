@@ -1,0 +1,63 @@
+.btn1 {
+    width: 8.9em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: rgba(89, 103, 110, 0.653);
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 16rem;
+    margin-left: 2rem;
+}
+
+
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    .btn1 {
+        width: 7em;
+        height: 1.9em;
+        font-size: 16px;
+        top: 12rem;
+        left: 1.9rem;
+    }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+    .btn1 {
+        width: 9.5em;
+        height: 1.8em;
+        font-size: 14px;
+        margin-top: -3rem;
+        margin-left: 5rem;
+    }
+}
+
+.btn1:hover {
+    color: rgb(26, 26, 26);
+}
+
+.btn1::after {
+    content: "";
+    background: rgb(95, 92, 92);
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+.btn1:hover::after {
+    transform: skewX(-45deg) scale(1, 1);
+    transition: all 0.5s;
+}
